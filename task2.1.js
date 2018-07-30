@@ -1,7 +1,13 @@
 let str = "Katia";
-let res = str.indexOf("sdfsdfsdf");
-if (res >= 0) {
-    console.log("found");
-} else {
-    console.log("not found");
+let value = "tia";
+
+function find(input, searchValue) {
+    let res = input.indexOf(searchValue);
+    if (res >= 0) {
+        console.log("found");
+    } else {
+        console.log("not found");
+    }
 }
+
+find(str, value);
